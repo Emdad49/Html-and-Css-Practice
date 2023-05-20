@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid-Layout</title>
+
+    <style>
+        
+        #item1 {grid-area: h;
+            background-color: red;
+           
+        }
+        .item2 {grid-area: me;
+            background-color: green;
+        }
+        .item3 {grid-area: mi;
+            background-color: purple;
+        }
+        .item4 {grid-area: a;
+            background-color: black;
+        }
+        .item5 {grid-area: f;
+            background-color: gray;
+        }
+       
+        .grid-container{
+            display: grid;
+           text-align: center;
+            
+           grid-template-areas:
+           '. . h h h h h h h h . .'
+           'me me me me mi mi mi mi a a a a'
+           'f f f f f f f f f f f f'
+           
+           ;
+          
+          
+        }
+
+        
+      
+    </style>
+</head>
+<body>
+   
+ <div class="grid-container">
+    <header id="item1"><h1>header</h1></header>
+    <menu class="item2"> <h1>menu</h1> </menu>
+    <main class="item3"> <h1>main</h1> </main>
+    <aside class="item4"> <h1> aside </h1> </aside>
+    <footer class="item5"><h1>footer</h1> </footer>
+
+   
+ </div>
+</body>
+</html>
