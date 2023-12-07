@@ -1,0 +1,302 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="../styles/style.css">
+<link rel="stylesheet" href="../styles/responsive.css">
+</head>
+<body>
+    
+
+    <!-- collapcible navber start -->
+    <div class="nav-icon flex-center" id="nav-icon">
+        <h1>menu</h1>
+        <!-- <i class="fas fa-car fa-3x"></i> -->
+    </div>
+    <!-- collapcible navber end -->
+    <!-- navber start -->
+        <nav class="hidden " id="navber" >
+            <ul class=" nav-upper flex-space-around">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="register.html">register</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="logout.html">Logout</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li class="nav_profile">
+                    <a href="user.html"><img src="../images/emdad.png" class="p-image"></a>
+                </li>
+            </ul>
+            <ul class="nav-lower flex-space-around">
+                <li><a href="index.html" class="nav_title">Emdad Express</a></li>
+                <li><a href="cart.html">
+                    <span class="nav_icon"><i class="fa-solid fa-card-shopping fa-2x "></i></span>
+                    Card2 product- $123.43
+                </a></li>
+            </ul>
+            
+        </nav>
+
+    <!-- navber end -->
+
+    <!-- header start -->
+    <header class="header flex-space-around">
+        <marquee behavior="" direction="" >
+            <h1 class="h-title">50% Sales going on</h1>
+        </marquee>
+        <article class="features flex-space-around">
+            <div class="feature flex-center">
+                <span><i class="fas fa-car"></i></span>
+            <h3 class="a-title">ipsum dolor sit</h3>
+            </div>
+            <div class="feature flex-center">
+                <span><i class="fas fa-car"></i></span>
+            <h3 class="a-title">ipsum dolor sit</h3>
+            </div>
+            <div class="feature flex-center">
+                <span><i class="fas fa-car"></i></span>
+            <h3 class="a-title">ipsum dolor sit</h3>
+            </div>
+        </article>
+    </header>
+    <!-- header end -->
+    <!-- main start -->
+    <main class="flex-space-around">
+        
+            <article class="sidebar ">
+                <section class="categories">
+                    <h1 class="c-title">Categories</h1>
+                    <ul class="lists">
+                        <li class="list">
+                            <label for="com">
+                                <input type="checkbox" name="com" id="com" value="computer">
+                                Computer
+                            </label>
+                        </li>
+                        <li class="list">
+                            <label for="Phone">
+                                <input type="checkbox" name="Phone" id="Phone" value="Phone">
+                                Phone
+                            </label>
+                        </li>
+                        <li class="list">
+                            <label for="Laptop">
+                                <input type="checkbox" name="Laptop" id="Laptop" value="Laptop">
+                                Laptop
+                            </label>
+                        </li>
+                        <li class="list">
+                            <label for="Realme">
+                                <input type="checkbox" name="Realme" id="Realme" value="Realme">
+                                Realme
+                            </label>
+                        </li>
+                    </ul>
+                </section>
+                <section class="Price">
+                    <h1 class="P-title">Price Ranges</h1>
+                    <ul class="lists">
+                        <li class="list">
+                            <label for="Price1">
+                            </label>
+                            <input type="radio" name="price1" id="price1" value="[$0,$21]">
+                            $0-$20
+                        </li>
+                        <li class="list">
+                            <label for="Price1">
+                            </label>
+                            <input type="radio" name="price1" id="price1" value="[$21,$50]">
+                            $21-$50
+                        </li>
+                        <li class="list">
+                            <label for="Price1">
+                            </label>
+                            <input type="radio" name="price1" id="price1"value="[$100-$200]">
+                            $100-$200
+                        </li>
+                        <li class="list">
+                            <label for="Price1">
+                            </label>
+                            <input type="radio" name="price1" value="[$200-$320]" id="price1">
+                            $200-$320
+                        </li>
+                        
+                    </ul>
+                </section>
+                <section class="Shipping">
+                    <h1 class="s-title">Shipping Options</h1>
+                    <ul class="lists">
+                        <li class="list">
+                            <label for="free">
+                                <input type="radio" name="free" id="free" value="free">
+                            Freee Shipping
+                            </label>
+                            
+                        </li>
+                        <li class="list">
+                            <label for="paid">
+                                <input type="radio" name="paid" id="paid" value="paid">
+                            paid
+                            </label>
+                            
+                        </li>
+                       
+                    </ul>
+                </section>
+            </article>
+        
+        <div class="main-content"> 
+            <div class=" a-wrapper flex-space-around">
+                <div class="actions">
+                    <div class="a-sort">
+                        <label for="sort" class="sort-label">sort by:</label>
+                        <select name="sort" id="sort">
+                            <option value="most latest">
+                                most latest
+                            </option>
+                            <option value="most sold first">
+                                most sold first
+                            </option>
+                            <option value="most latest">
+                                most latest
+                            </option>
+                        </select>
+                        
+                    </div>
+                    <div class="a-search ">
+                        <input type="search" name="" id="" placeholder="search product">
+                        <span class="s-icon"><i class="fas fa-search"></i></span>
+                    </div>
+            </div>
+            
+ 
+            </div>
+            <div class="products ">
+                <div class="product1 card">
+                    <div class="p-badge">
+                        <h4 class="badge_title">stock 20</h4>
+                        <hr class="row-style">
+                        <h4 class="badge_dec">stock 20</h4>
+                    </div>
+                    <img src="../images/img8.jpg" alt="">
+                    <ul class="color">
+                        <li class="list"><input type="color" name="red" id="red" value="#ff0000">
+                            <label for="red">Red</label>
+                        </li>
+                        <li class="list"><input type="color" name="black" id="black" value="#000000">
+                            <label for="black">Black</label>
+                        </li>
+                        <li class="list"><input type="color" name="blue" id="blue" value="#0000FF">
+                            <label for="red">Blue</label>
+                        </li>
+                    </ul>
+                    <div class="p-body">
+                        <h4 class="p-title">
+                            This is a Phone
+                        </h4>
+                        <p class="p-decs">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.voluptatum quas culpa cupiditate perferendis vitae? Ullam ... <a href="./product.html">
+                                Learn more
+                            </a>
+                        </p>
+                        <h4 class="p-price">$200</h4>
+                        <h4 class="p-rating">Rating : 4/5</h4>
+                        <button class="p-btn">Add to Card</button>
+                    </div>
+                </div>
+ 
+                <div class="product1 card">
+                    <div class="p-badge">
+                        <h4 class="badge_title">stock 20</h4>
+                        <hr class="row-style">
+                        <h4 class="badge_dec">stock 20</h4>
+                    </div>
+                    <img src="../images/img5.jpg" alt="">
+                    <ul class="color">
+                        <li class="list"><input type="color" name="red" id="red" value="#ff0000">
+                            <label for="red">Red</label>
+                        </li>
+                        <li class="list"><input type="color" name="black" id="black" value="#000000">
+                            <label for="black">Black</label>
+                        </li>
+                        <li class="list"><input type="color" name="blue" id="blue" value="#0000FF">
+                            <label for="red">Blue</label>
+                        </li>
+                    </ul>
+                    <div class="p-body">
+                        <h4 class="p-title">
+                            This is a Phone
+                        </h4>
+                        <p class="p-decs">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.voluptatum quas culpa cupiditate perferendis vitae? Ullam ... <a href="./product.html">
+                                Learn more
+                            </a>
+                        </p>
+                        <h4 class="p-price">$200</h4>
+                        <h4 class="p-rating">Rating : 4/5</h4>
+                        <button class="p-btn">Add to Card</button>
+                    </div>
+                </div>
+ 
+                <div class="product1 card">
+                    <div class="p-badge">
+                        <h4 class="badge_title">stock 20</h4>
+                        <hr class="row-style">
+                        <h4 class="badge_dec">stock 20</h4>
+                    </div>
+                    <img src="../images/img4.jpg" alt="">
+                    <ul class="color">
+                        <li class="list"><input type="color" name="red" id="red" value="#ff0000">
+                            <label for="red">Red</label>
+                        </li>
+                        <li class="list"><input type="color" name="black" id="black" value="#000000">
+                            <label for="black">Black</label>
+                        </li>
+                        <li class="list"><input type="color" name="blue" id="blue" value="#0000FF">
+                            <label for="red">Blue</label>
+                        </li>
+                    </ul>
+                    <div class="p-body">
+                        <h4 class="p-title">
+                            This is a Phone
+                        </h4>
+                        <p class="p-decs">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.voluptatum quas culpa cupiditate perferendis vitae? Ullam ... <a href="./product.html">
+                                Learn more
+                            </a>
+                        </p>
+                        <h4 class="p-price">$200</h4>
+                        <h4 class="p-rating">Rating : 4/5</h4>
+                        <button class="p-btn">Add to Card</button>
+                    </div>
+                </div>
+ 
+            </div>
+        </div>
+    </main>
+    <!-- main end -->
+
+    <!-- footer start -->
+    <footer class="footer flex-space-around">
+        <div class="subcribes">
+            <label for="sub">Subcribse to newsletter: </label>
+            <input type="email" name="email" id="email">
+            <button  value="" class="btn sub-btn"> subcribe</button>
+        </div>
+        <div class="copyright">
+            <p >&copy; copyright 2023, All reserved by Emdadul hoque</p>
+        </div>
+    </footer>
+    <!-- footer end -->
+
+    <!-- javaScript start -->
+    <script src="../scripts/script.js"></script>
+    <!-- javaScript end -->
+</body>
+</html>
